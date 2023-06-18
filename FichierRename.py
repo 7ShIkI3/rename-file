@@ -40,7 +40,7 @@ def main():
     saut_de_ligne(1)
     print("Bienvenue sur FileRename !!")
     saut_de_ligne(1)
-    print("Choissisez le type de fichier a renomer !")
+    print("Choissisez le type de fichier a renommer !")
     saut_de_ligne(1)
     print("[A] pour les fichiers .png")
     print("[B] pour les fichiers .jpg")
