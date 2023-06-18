@@ -11,12 +11,6 @@ def saut_de_ligne(n:int):
     for _ in range(n):
         print()
 
-def clear_console():
-    if os.name == 'nt':  # Vérifie si le système d'exploitation est Windows
-        os.system('cls')  # Efface la console sur Windows
-    else:
-        os.system('clear')  # Efface la console sur Linux/macOS
-
 def rename_file(destination:str, type_de_fichier:str, file_name:str):
     i = 0
     path = destination
@@ -40,7 +34,7 @@ def main():
     saut_de_ligne(1)
     print("Bienvenue sur FileRename !!")
     saut_de_ligne(1)
-    print("Choissisez le type de fichier a renomer !")
+    print("Choissisez le type de fichier a renommer !")
     saut_de_ligne(1)
     print("[A] pour les fichiers .png")
     print("[B] pour les fichiers .jpg")
