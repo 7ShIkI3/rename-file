@@ -39,6 +39,7 @@ def main():
     print("[A] pour les fichiers .png")
     print("[B] pour les fichiers .jpg")
     print("[C] pour les fichiers .txt")
+    print("[D] pour les fichiers a type personnaliser")
     
     saut_de_ligne(1)
     filetype = str(input("> "))
@@ -52,6 +53,9 @@ def main():
     elif filetype == "C":
         name = "txt"
         type = ".txt"
+    elif filetype == "D":
+        name = str(input("Donnez un nom générique : "))
+        type = str(input("Donnez un type de fichier ex '.txt' : "))
     else:
         exit(0)
     
